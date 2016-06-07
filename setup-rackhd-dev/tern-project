@@ -1,0 +1,27 @@
+{
+    "libs":[
+        "ecma5"
+    ],
+
+    "loadEagerly": [
+        "/home/onrack/Documents/tern_project_modules/lodash/*.js",
+        "/home/onrack/Documents/tern_project_modules/q/*.js",
+        "/home/onrack/Documents/tern_project_modules/di/src/*.js",
+        "*.js"
+    ],
+
+    "dontLoad":[
+        "*-spec.js"
+    ],
+
+    "plugins":{
+        "complete_strings":{},
+        "node":{},
+        "lint":{},
+        "requirejs":{},
+        "angular":{},
+        "doc_comment":{
+            "fullDocs": true
+        }
+    }
+}

@@ -1,0 +1,10 @@
+STARTFGCOLOR="\[\e[0;36m\]";
+STARTBGCOLOR=""  #"\e[47m"
+ENDCOLOR="\[\e[0m\]"
+export PS1="$STARTFGCOLOR$STARTBGCOLOR\u@\w>$ENDCOLOR "
+
+export PATH=$PATH:~/utils:~/src/on-tools/node_modules/.bin:~/npm/bin
+
+source ~/.alias
+source ~/.mybash
+
