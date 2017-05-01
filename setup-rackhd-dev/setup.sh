@@ -101,6 +101,7 @@ npm install -g vimlint
 npm install -g js-yaml
 npm install -g istanbul
 npm install -g mocha
+npm install -g jq
 
 # python packages
 sudo pip install virtualenv

@@ -24,6 +24,7 @@ reposync on-skupack
 reposync on-imagebuilder
 reposync RackHD
 reposync docs
+reposync on-tools
 
 
 
